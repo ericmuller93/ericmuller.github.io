@@ -1,0 +1,21 @@
+h1 {
+	color:#fff;
+	font-family:roboto;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+h2 {
+	text-align: center;
+	color: #000000;
+}
+
+.img2-fluid {
+	margin-bottom: 30px;
+	margin-left: 100px;
+
+}
+
+.exptext {
+	margin-left:50px;
+}
