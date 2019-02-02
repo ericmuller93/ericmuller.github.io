@@ -8,6 +8,8 @@ h1 {
 h2 {
 	text-align: center;
 	color: #000000;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .img2-fluid {
@@ -18,4 +20,12 @@ h2 {
 
 .exptext {
 	margin-left:50px;
+}
+
+#resume {
+	text-align: center;
+}
+
+.pythonText {
+	text-align: center;
 }
