@@ -5,7 +5,7 @@ h1 {
 	text-transform:uppercase;
 }
 
-h2 {
+h2,h3 {
 	text-align: center;
 	color: #000000;
 	font-weight: bold;
@@ -18,14 +18,15 @@ h2 {
 
 }
 
-.exptext {
-	margin-left:50px;
-}
-
 #resume {
 	text-align: center;
 }
 
-.pythonText {
-	text-align: center;
+.expText {
+	/*text-align: center;*/
 }
+
+#baExp{
+	margin-left: 130px;
+}
+

@@ -28,16 +28,16 @@
 							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#portfolio">Portfolio</a>
+							<a class="nav-link" href="#Aboutme">About Me</a>
 						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="#exp">Experience</a>
+							</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#resume">Resume</a>
 						</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0 hidden-sm-down">
-						<input class="form-control mr-sm-2" type="text" placeholder="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form>
+
 				</div>
 			</nav>
 			<!-- /navigation -->
@@ -53,71 +53,144 @@
 
 			<!-- main content -->
 			<br></br>
-			<h2>My Portfolio</h2>
-			<div class="container my-5" id="portfolio">
+			<h2>About Me</h2>
+			<div class="container my-5" id="Aboutme">
 				<div class="row">
-					<div class="col-md-4 mt-5 px-2">
+					<div class="col-md-4 mt-5 pr-2">
 						<img class="img-fluid" src="./img/my_pic.jpg" alt=""/>
-						<p>An experienced Business Analyst and Software Developer in Seattle Washington</p>
 					</div>
-					<div class="col-md-3 mt-5 px-2">
-						<div class="exptext">
-						<p><strong>Business Analysis Experience</strong></p>
-						<p>Creating project plans from gathering user requirements. Also supporting a system and its users on a day to day basis.</p>
-						<br></br>
-						
-						<p><strong>Front End Development Experiece</strong></p>
-						<p>Knowledge to create webpages using HTML, CSS, Javascipt, and Bootstrap.<p>
-						<br></br>
-						
-						<p><strong>Back End Development Experience</strong></p>
-						<p>Programs created with C#, Python, and practical experience with SQL</p>
-						</div>
-					</div>
-					<div class="col-md-3 pt-5">
-					<img class="img2-fluid" src="./img/ba.jpg" width="240" height="170" alt="picture error"/>
-					<img class="img2-fluid" src="./img/front_end_pic.jpg" width="240" height="140" alt="picture error"/>
-					<img class="img2-fluid" src="./img/backend_pic.png" width="240" height="190" alt="picture error"/>
+					<div id="baExp" class="col-md-6 mt-5 px-2">
+							<p>An experienced Business Analyst and Software Developer in Seattle Washington.
+									My true passion is combining the business and technology to achieve a goal. 
+									I am always on the hunt for new opportunities to further challenge myself in both areas.
+									My ultimate goal is to be a technical analyst that can be a skilled liaison between
+									technical and software teams. Using data to solve problems has always interested me
+									and I am looking forward to working with it!
+									<br><br>
+									Recently, I moved from New York City to Seattle Washington. Luckily, I still feel at home 
+									because Seattle has plenty of my favorite things, which are food and coffee. Personally,
+									I enjoy traveling, exploring new places and cultures, and of course trying new food! 
+									On top of that I am an avid heavy metal enthusiast, so you'll see me at every concert!
+									<br><br>
+									Thanks for checking out my website! Read more about my professional experience below.
+							</p>	
 					</div>
 				</div>
-			</div>
-			<!-- /main content -->
+				<br><br><br><br>
+							<!-- /main content -->
 			
+			<h2 id="exp">My Experience!</h2>
 			<!-- github link-->
 			<div id="githubText">
-			<h2>
-			<a href="https://github.com/ericmuller93">Check out my Github!</a>
-			</h2>
+			<h3>
+			   Check out my <a href="https://github.com/ericmuller93">Github </a>to see the below projects
+			</h3>
 			</div>
-			<br><br>
 			<!-- end github link-->
-			
+				<div class="exptext">
+				<div class="row">
+					<div class="col-md-4 mt-5 px-3 text-center">
+							<img class="img2-fluid, center" src="./img/ba.jpg" width="230" height="160" alt="picture error"/>
+							<br><br>
+							<p><strong>Business Analysis Experience</strong></p>
+					</div>
+					<div class="col-md-4 mt-5 px-4 text-center">
+							<img class="img2-fluid, center" src="./img/front_end_pic.jpg" width="240" height="140" alt="picture error"/>									
+							<br><br><br>
+							<p><strong>Front End Development Experiece</strong></p>
+					</div>		
+					<div  class="col-md-4 mt-5 px-4 text-center">
+							<img class="img2-fluid, center" src="./img/backend_pic.png" width="240" height="190" alt="picture error"/>
+							<p><strong>Back End Development Experience</strong></p>
+					</div>
+				</div>
+				</div>
+
+					
+			</div>
+			<!-- Business Analyst Experience -->
+			<h2>My Experience in Business Analysis!</h2>
+			<div class="expText">
+				<p>My diverse business analyst experience was built for over three years in the 
+					finance industry. I excel at gathering requirements for projects I was managing
+					 and collecting data from various sources to support my recommendations. 
+					 My main responibilities required me to support the users of a software which 
+					 included trainings, creating documentation, and managing updates.</p>
+			 </div>
+			<!-- end business analyst experience -->
+
 			<!-- Python Experience -->
 			<h2>My Experience in Python!</h2>
-				<div class="pythonText">
-				<p>I have built a few applications in python, mainly using pycharm. You can find both on 
-					<a href="https://github.com/ericmuller93">my Github.</a>
+			<div class="expText">
+					I have built a few applications in python, mainly using pycharm. You can find them on 
+					<a href="https://github.com/ericmuller93/Python-Projects">my Github.</a>
+					<br>
 					The first is an application that will let you select two directories and move files of a specific 
 					extension from the first to the second. It then stores what file you moved and the last time it was 
-					edited in a SQLite 3 database. I created the GUI using tkinter.The second is a fictional website for 
-					a hotel with a food ordering system. I utilized Django to create this.There is an admin function to 
-					create, update and delete food items from the menu.
-				</p>
+					edited in a SQLite 3 database. I created the GUI using tkinter.
+					<br> 
+					Another is a fictional website for a hotel with a food ordering system. I utilized 
+					Django to create this.There is an admin function to create, update and delete 
+					food items from the menu.
+					<br>
+					Last and certainly not least, I worked with a SCRUM team to develop a web scraper in
+					Django. We used modules like BeautifulSoup and Selenium to pull data from various websites
+					and have this data in one central place. The user could then see a personalized feed of 
+					the weather, upcoming events, and applicable news story on their site.
 				</div>
 			
 			<!-- end python experience -->
+
+			<!-- C# Experience -->
+			<h2>My Experience in C#!</h2>
+				<div class="expText">
+					C# was an exciting language to learn. I very much enjoyed working with MVC in Visual Studio
+					to make dynamic websites. You can find a car insurance quote generator on 
+					<a href="https://github.com/ericmuller93/C-Sharp-Projects">my Github.</a>
+					This project really helped me utilize the power of MVC. When a user enters all of their information,
+					the system will calculate their quote and direct them to a details page. On the back end all of this 
+					information is stored in a SQL server database. An admin view was created for a site owner to maintain
+					all of the entries.
+					<br>
+					In addition to MVC I made many console applications. One of my favorites is a TwentyOne or
+					BlackJack game. A user specifies how much money they brought and proceeds to play and bet until
+					they run out. This application helped me build a very solid understanding of not only C# but Object
+					Oriented Programming too. I feel it's very important to understand concepts like inheritance and
+					exception handling to make a proper program.
+				</div>
+			
+			<!-- end C# experience -->
+
+			<!-- Front-End Experience -->
+			<h2>My Experience in Front End Development!</h2>
+				<div class="expText">
+					Throught my coding experience I have always used HTML, CSS, and Javascript to build the Front-End
+					portion of many projects. For example this very webpage you are viewing is built with the mentioned
+					tools and bootstrap!
+					<br>
+					One of my more challenging Javascript heavy projects was building a pizza ordering website. On this
+					page the user could select from many various options to customize their pizza order. When the user
+					submits their order, the page would return an itemized receipt of what they ordered and a cost breakdown.
+					<br>
+					Additionally I was always referring back to my Front-End languages when working in Python and C#. 
+					When using MVC and Django I was constantly creating and styling my pages of web applications. I always
+					found this to be a fun mix of technologies!
+				</div>
+			
+			<!-- end Front-End experience -->
 		
-			<!-- experience -->
+			<!-- resume -->
 			<div class="container my-5" id="resume">
 				<h2>My Resume</h2>
 					<div> 
 						<embed src="Eric Muller's Resume.pdf" width="800px" height="1100px" alt="picture error"/>
 					</div>
 			</div>
-			<!-- end experience -->
-		
-
-		
+			<!-- end resume -->
+		<br><br><br>
+		<p class="text-center">Thanks for reading all the way through my website. That's pretty cool and I really appreicate it!
+			 Reach out to me and lets grab a coffee sometime.
+		</p>
 		</div>
 		<!-- /page content -->
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
